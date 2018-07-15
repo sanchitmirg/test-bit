@@ -1,0 +1,16 @@
+{
+    "name": "bitcoin",
+    "version": "1.0.0",
+    "description": "Project",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass scss/main.scss css/main.css -w",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "npm run compile:sass"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^4.9.0"
+    }
+}
